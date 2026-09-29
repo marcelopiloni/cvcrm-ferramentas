@@ -1,0 +1,30 @@
+{
+  "dominio": "suaempresa",
+  "email": "usuario.gestor@suaempresa.com.br",
+  "token": "cole_aqui_o_token_da_api",
+  "limpeza": {
+    "id_situacao_descartado": 3,
+    "dias_inatividade": 90,
+    "situacoes_descartaveis": {
+      "1": "ENTRADA DE LEAD",
+      "4": "EM ATENDIMENTO"
+    },
+    "autores_integracao_regex": "integracao@|backend@",
+    "motivo_por_situacao": {
+      "1": "NOME EXATO DO MOTIVO NO CV",
+      "4": "NOME EXATO DO MOTIVO NO CV"
+    },
+    "explicacao_descarte": "Lead sem nome - descarte automatico"
+  },
+  "importacao": {
+    "idimobiliaria": 0,
+    "idempreendimento": 0,
+    "idmidia": 0,
+    "conversao": "NOME DA CONVERSAO / FORMULARIO",
+    "origem": "FB",
+    "id_situacao_entrada": 1,
+    "situacoes_reativaveis": [
+      3
+    ]
+  }
+}

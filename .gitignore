@@ -1,0 +1,21 @@
+# credenciais - nunca versionar
+config.json
+curl.txt
+cookie.txt
+*.env
+
+# dados de clientes (LGPD) - nunca versionar
+dados/
+*.csv
+*.xlsx
+*.xls
+*.jsonl
+*.html
+html/
+*.json
+!config.exemplo.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
